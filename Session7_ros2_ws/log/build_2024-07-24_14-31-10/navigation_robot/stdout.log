@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/navigation_robot/navigation_robot.egg-info
+writing ../../build/navigation_robot/navigation_robot.egg-info/PKG-INFO
+writing dependency_links to ../../build/navigation_robot/navigation_robot.egg-info/dependency_links.txt
+writing entry points to ../../build/navigation_robot/navigation_robot.egg-info/entry_points.txt
+writing requirements to ../../build/navigation_robot/navigation_robot.egg-info/requires.txt
+writing top-level names to ../../build/navigation_robot/navigation_robot.egg-info/top_level.txt
+writing manifest file '../../build/navigation_robot/navigation_robot.egg-info/SOURCES.txt'
+reading manifest file '../../build/navigation_robot/navigation_robot.egg-info/SOURCES.txt'
+writing manifest file '../../build/navigation_robot/navigation_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/navigation_robot/build
+creating /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/navigation_robot/build/lib
+creating /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/navigation_robot/build/lib/navigation_robot
+copying navigation_robot/__init__.py -> /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/navigation_robot/build/lib/navigation_robot
+running install
+running install_lib
+creating /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/lib/python3.10/site-packages/navigation_robot
+copying /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/navigation_robot/build/lib/navigation_robot/__init__.py -> /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/lib/python3.10/site-packages/navigation_robot
+byte-compiling /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/lib/python3.10/site-packages/navigation_robot/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/share/ament_index
+creating /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/share/ament_index/resource_index
+creating /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/share/ament_index/resource_index/packages
+copying resource/navigation_robot -> /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/share/ament_index/resource_index/packages
+copying package.xml -> /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/share/navigation_robot
+running install_egg_info
+Copying ../../build/navigation_robot/navigation_robot.egg-info to /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/lib/python3.10/site-packages/navigation_robot-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/navigation_robot/install.log'
