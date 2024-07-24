@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'wall_finder=navigation_robot.wall_finder_service:main'
         ],
     },
 )
