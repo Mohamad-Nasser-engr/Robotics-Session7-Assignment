@@ -1,0 +1,25 @@
+running egg_info
+writing ../../build/navigation_robot/navigation_robot.egg-info/PKG-INFO
+writing dependency_links to ../../build/navigation_robot/navigation_robot.egg-info/dependency_links.txt
+writing entry points to ../../build/navigation_robot/navigation_robot.egg-info/entry_points.txt
+writing requirements to ../../build/navigation_robot/navigation_robot.egg-info/requires.txt
+writing top-level names to ../../build/navigation_robot/navigation_robot.egg-info/top_level.txt
+reading manifest file '../../build/navigation_robot/navigation_robot.egg-info/SOURCES.txt'
+writing manifest file '../../build/navigation_robot/navigation_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+copying navigation_robot/lap_time_client.py -> /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/navigation_robot/build/lib/navigation_robot
+running install
+running install_lib
+copying /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/navigation_robot/build/lib/navigation_robot/lap_time_client.py -> /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/lib/python3.10/site-packages/navigation_robot
+byte-compiling /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/lib/python3.10/site-packages/navigation_robot/lap_time_client.py to lap_time_client.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/lib/python3.10/site-packages/navigation_robot-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/navigation_robot/navigation_robot.egg-info to /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/lib/python3.10/site-packages/navigation_robot-0.0.0-py3.10.egg-info
+running install_scripts
+Installing lap_time_client script to /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/lib/navigation_robot
+Installing lap_time_server script to /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/lib/navigation_robot
+Installing robot_driver script to /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/lib/navigation_robot
+Installing wall_finder script to /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/lib/navigation_robot
+writing list of installed files to '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/navigation_robot/install.log'

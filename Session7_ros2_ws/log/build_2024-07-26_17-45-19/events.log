@@ -1,0 +1,394 @@
+[0.000000] (-) TimerEvent: {}
+[0.007985] (custom_interfaces) JobQueued: {'identifier': 'custom_interfaces', 'dependencies': OrderedDict()}
+[0.039167] (navigation_robot) JobQueued: {'identifier': 'navigation_robot', 'dependencies': OrderedDict()}
+[0.039374] (custom_interfaces) JobStarted: {'identifier': 'custom_interfaces'}
+[0.123685] (-) TimerEvent: {}
+[0.297912] (-) TimerEvent: {}
+[0.334226] (navigation_robot) JobStarted: {'identifier': 'navigation_robot'}
+[0.400629] (-) TimerEvent: {}
+[0.649557] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'cmake'}
+[0.649917] (-) TimerEvent: {}
+[0.652256] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'build'}
+[0.657936] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/custom_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mohamad'), ('LC_TIME', 'ar_LB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/lib:/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mohamad'), ('OLDPWD', '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_LB.UTF-8'), ('SYSTEMD_EXEC_PID', '2601'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install:/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install:/home/mohamad/Inmind/Robotics-Session5-Ros2/session5_ros2_ws/install:/home/mohamad/Inmind/ros2_ws/install:/home/mohamad/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mohamad'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mohamad'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mohamad-VirtualBox:@/tmp/.ICE-unix/1833,unix/mohamad-VirtualBox:/tmp/.ICE-unix/1833'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_LB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6f4d1928_2b49_4d3a_be6a_d5ff93169fd7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_LB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EEVWQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot:/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces:/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/session6_assignment:/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/custom_interfaces:/home/mohamad/Inmind/ros2_ws/install/session5_academy:/home/mohamad/Inmind/Robotics-Session5-Ros2/session5_ros2_ws/install/session5_assignment:/home/mohamad/ros2_ws/install/my_robot_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_LB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_LB.UTF-8'), ('LC_IDENTIFICATION', 'ar_LB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/custom_interfaces'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/lib/python3.10/site-packages:/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/session6_assignment/lib/python3.10/site-packages:/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/mohamad/Inmind/ros2_ws/install/session5_academy/lib/python3.10/site-packages:/home/mohamad/Inmind/Robotics-Session5-Ros2/session5_ros2_ws/install/session5_assignment/lib/python3.10/site-packages:/home/mohamad/ros2_ws/build/my_robot_controller:/home/mohamad/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_LB.UTF-8'), ('LC_PAPER', 'ar_LB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces:/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/custom_interfaces:/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot:/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/session6_assignment:/home/mohamad/Inmind/ros2_ws/install/session5_academy:/home/mohamad/Inmind/Robotics-Session5-Ros2/session5_ros2_ws/install/session5_assignment:/home/mohamad/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[0.789800] (-) TimerEvent: {}
+[0.911299] (-) TimerEvent: {}
+[1.156008] (-) TimerEvent: {}
+[1.313367] (-) TimerEvent: {}
+[1.445108] (-) TimerEvent: {}
+[1.576278] (-) TimerEvent: {}
+[1.638618] (custom_interfaces) StdoutLine: {'line': b'[  2%] Built target custom_interfaces__cpp\n'}
+[1.679098] (-) TimerEvent: {}
+[1.787528] (-) TimerEvent: {}
+[1.920604] (-) TimerEvent: {}
+[2.065910] (-) TimerEvent: {}
+[2.224787] (-) TimerEvent: {}
+[2.344466] (-) TimerEvent: {}
+[2.453201] (-) TimerEvent: {}
+[2.562889] (-) TimerEvent: {}
+[2.695767] (-) TimerEvent: {}
+[2.874409] (-) TimerEvent: {}
+[2.943138] (custom_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_custom_interfaces\n'}
+[2.976887] (-) TimerEvent: {}
+[3.086657] (-) TimerEvent: {}
+[3.189532] (-) TimerEvent: {}
+[3.199189] (custom_interfaces) StdoutLine: {'line': b'[ 12%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[3.299317] (-) TimerEvent: {}
+[3.418580] (-) TimerEvent: {}
+[3.524677] (-) TimerEvent: {}
+[3.629956] (-) TimerEvent: {}
+[3.730521] (custom_interfaces) StdoutLine: {'line': b'[ 23%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[3.733054] (-) TimerEvent: {}
+[3.841026] (-) TimerEvent: {}
+[3.948477] (-) TimerEvent: {}
+[4.093808] (-) TimerEvent: {}
+[4.208541] (-) TimerEvent: {}
+[4.325999] (-) TimerEvent: {}
+[4.549525] (-) TimerEvent: {}
+[4.661819] (-) TimerEvent: {}
+[4.769877] (-) TimerEvent: {}
+[4.960916] (-) TimerEvent: {}
+[5.064995] (-) TimerEvent: {}
+[5.175170] (-) TimerEvent: {}
+[5.296599] (-) TimerEvent: {}
+[5.472602] (-) TimerEvent: {}
+[5.586064] (-) TimerEvent: {}
+[5.687396] (-) TimerEvent: {}
+[5.810589] (-) TimerEvent: {}
+[5.964105] (-) TimerEvent: {}
+[6.088693] (-) TimerEvent: {}
+[6.190077] (-) TimerEvent: {}
+[6.363374] (-) TimerEvent: {}
+[6.465318] (-) TimerEvent: {}
+[6.497718] (custom_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[6.640465] (custom_interfaces) StdoutLine: {'line': b'writing custom_interfaces.egg-info/PKG-INFO\n'}
+[6.640681] (-) TimerEvent: {}
+[6.644755] (custom_interfaces) StdoutLine: {'line': b'writing dependency_links to custom_interfaces.egg-info/dependency_links.txt\n'}
+[6.644978] (custom_interfaces) StdoutLine: {'line': b'writing top-level names to custom_interfaces.egg-info/top_level.txt\n'}
+[6.649491] (custom_interfaces) StdoutLine: {'line': b"reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[6.650815] (custom_interfaces) StdoutLine: {'line': b"writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[6.772581] (-) TimerEvent: {}
+[6.890461] (-) TimerEvent: {}
+[7.008823] (-) TimerEvent: {}
+[7.142501] (custom_interfaces) StdoutLine: {'line': b'[ 23%] Built target ament_cmake_python_build_custom_interfaces_egg\n'}
+[7.143009] (-) TimerEvent: {}
+[7.243793] (-) TimerEvent: {}
+[7.352231] (-) TimerEvent: {}
+[7.468673] (-) TimerEvent: {}
+[7.585604] (-) TimerEvent: {}
+[7.707549] (-) TimerEvent: {}
+[7.821827] (-) TimerEvent: {}
+[7.930717] (-) TimerEvent: {}
+[8.026671] (custom_interfaces) StdoutLine: {'line': b'[ 33%] Built target custom_interfaces__rosidl_typesupport_cpp\n'}
+[8.036628] (-) TimerEvent: {}
+[8.153358] (-) TimerEvent: {}
+[8.273723] (-) TimerEvent: {}
+[8.382926] (-) TimerEvent: {}
+[8.519034] (-) TimerEvent: {}
+[8.662867] (-) TimerEvent: {}
+[8.767048] (-) TimerEvent: {}
+[8.791836] (custom_interfaces) StdoutLine: {'line': b'[ 43%] Built target custom_interfaces__rosidl_generator_c\n'}
+[8.869435] (-) TimerEvent: {}
+[8.926694] (custom_interfaces) StdoutLine: {'line': b'[ 53%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[8.976170] (-) TimerEvent: {}
+[9.090846] (-) TimerEvent: {}
+[9.220605] (-) TimerEvent: {}
+[9.362791] (-) TimerEvent: {}
+[9.472989] (-) TimerEvent: {}
+[9.588054] (-) TimerEvent: {}
+[9.688941] (-) TimerEvent: {}
+[9.831958] (-) TimerEvent: {}
+[9.999799] (custom_interfaces) StdoutLine: {'line': b'[ 64%] Built target custom_interfaces__rosidl_typesupport_c\n'}
+[10.004774] (-) TimerEvent: {}
+[10.199359] (-) TimerEvent: {}
+[10.316509] (-) TimerEvent: {}
+[10.341944] (navigation_robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/navigation_robot', 'build', '--build-base', '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/navigation_robot/build', 'install', '--record', '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/navigation_robot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/src/navigation_robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mohamad', 'LC_TIME': 'ar_LB.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/lib:/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/mohamad', 'OLDPWD': '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ar_LB.UTF-8', 'SYSTEMD_EXEC_PID': '2601', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install:/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install:/home/mohamad/Inmind/Robotics-Session5-Ros2/session5_ros2_ws/install:/home/mohamad/Inmind/ros2_ws/install:/home/mohamad/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mohamad', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mohamad', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mohamad-VirtualBox:@/tmp/.ICE-unix/1833,unix/mohamad-VirtualBox:/tmp/.ICE-unix/1833', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_LB.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6f4d1928_2b49_4d3a_be6a_d5ff93169fd7', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ar_LB.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.EEVWQ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.103', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot:/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces:/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/session6_assignment:/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/custom_interfaces:/home/mohamad/Inmind/ros2_ws/install/session5_academy:/home/mohamad/Inmind/Robotics-Session5-Ros2/session5_ros2_ws/install/session5_assignment:/home/mohamad/ros2_ws/install/my_robot_controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_LB.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_LB.UTF-8', 'LC_IDENTIFICATION': 'ar_LB.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/navigation_robot', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/navigation_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/lib/python3.10/site-packages:/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/lib/python3.10/site-packages:/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/session6_assignment/lib/python3.10/site-packages:/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/mohamad/Inmind/ros2_ws/install/session5_academy/lib/python3.10/site-packages:/home/mohamad/Inmind/Robotics-Session5-Ros2/session5_ros2_ws/install/session5_assignment/lib/python3.10/site-packages:/home/mohamad/ros2_ws/build/my_robot_controller:/home/mohamad/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ar_LB.UTF-8', 'LC_PAPER': 'ar_LB.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces:/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/custom_interfaces'}, 'shell': False}
+[10.418443] (-) TimerEvent: {}
+[10.505900] (custom_interfaces) StdoutLine: {'line': b'[ 74%] Built target custom_interfaces__rosidl_typesupport_introspection_c\n'}
+[10.525479] (-) TimerEvent: {}
+[10.687890] (-) TimerEvent: {}
+[10.793238] (-) TimerEvent: {}
+[10.908960] (-) TimerEvent: {}
+[11.030717] (-) TimerEvent: {}
+[11.089406] (custom_interfaces) StdoutLine: {'line': b'[ 74%] Built target custom_interfaces\n'}
+[11.132791] (-) TimerEvent: {}
+[11.243685] (-) TimerEvent: {}
+[11.416556] (-) TimerEvent: {}
+[11.558492] (-) TimerEvent: {}
+[11.672256] (-) TimerEvent: {}
+[11.709907] (custom_interfaces) StdoutLine: {'line': b'[ 76%] Built target custom_interfaces__py\n'}
+[11.799026] (-) TimerEvent: {}
+[11.903836] (-) TimerEvent: {}
+[12.027909] (-) TimerEvent: {}
+[12.142140] (-) TimerEvent: {}
+[12.194699] (custom_interfaces) StdoutLine: {'line': b'[ 84%] Built target custom_interfaces__rosidl_generator_py\n'}
+[12.268554] (-) TimerEvent: {}
+[12.397555] (-) TimerEvent: {}
+[12.514905] (-) TimerEvent: {}
+[12.628830] (-) TimerEvent: {}
+[12.826989] (-) TimerEvent: {}
+[12.928652] (-) TimerEvent: {}
+[13.041314] (-) TimerEvent: {}
+[13.148420] (-) TimerEvent: {}
+[13.169672] (custom_interfaces) StdoutLine: {'line': b'[ 89%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[13.249298] (-) TimerEvent: {}
+[13.370344] (-) TimerEvent: {}
+[13.474241] (-) TimerEvent: {}
+[13.578790] (-) TimerEvent: {}
+[13.685666] (-) TimerEvent: {}
+[13.790894] (-) TimerEvent: {}
+[13.890762] (custom_interfaces) StdoutLine: {'line': b'[ 94%] Built target custom_interfaces__rosidl_typesupport_c__pyext\n'}
+[13.891236] (-) TimerEvent: {}
+[13.992222] (-) TimerEvent: {}
+[14.094057] (-) TimerEvent: {}
+[14.201997] (-) TimerEvent: {}
+[14.333284] (-) TimerEvent: {}
+[14.447939] (-) TimerEvent: {}
+[14.629660] (-) TimerEvent: {}
+[14.647096] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[14.730957] (-) TimerEvent: {}
+[14.855621] (-) TimerEvent: {}
+[14.949750] (custom_interfaces) CommandEnded: {'returncode': 0}
+[14.961026] (-) TimerEvent: {}
+[15.014151] (navigation_robot) StdoutLine: {'line': b'running egg_info\n'}
+[15.039832] (navigation_robot) StdoutLine: {'line': b'writing ../../build/navigation_robot/navigation_robot.egg-info/PKG-INFO\n'}
+[15.112338] (-) TimerEvent: {}
+[15.115417] (navigation_robot) StdoutLine: {'line': b'writing dependency_links to ../../build/navigation_robot/navigation_robot.egg-info/dependency_links.txt\n'}
+[15.119935] (navigation_robot) StdoutLine: {'line': b'writing entry points to ../../build/navigation_robot/navigation_robot.egg-info/entry_points.txt\n'}
+[15.120940] (navigation_robot) StdoutLine: {'line': b'writing requirements to ../../build/navigation_robot/navigation_robot.egg-info/requires.txt\n'}
+[15.121478] (navigation_robot) StdoutLine: {'line': b'writing top-level names to ../../build/navigation_robot/navigation_robot.egg-info/top_level.txt\n'}
+[15.383716] (navigation_robot) StdoutLine: {'line': b"reading manifest file '../../build/navigation_robot/navigation_robot.egg-info/SOURCES.txt'\n"}
+[15.385856] (-) TimerEvent: {}
+[15.386277] (navigation_robot) StdoutLine: {'line': b"writing manifest file '../../build/navigation_robot/navigation_robot.egg-info/SOURCES.txt'\n"}
+[15.386581] (navigation_robot) StdoutLine: {'line': b'running build\n'}
+[15.386695] (navigation_robot) StdoutLine: {'line': b'running build_py\n'}
+[15.386793] (navigation_robot) StdoutLine: {'line': b'copying navigation_robot/lap_time_server.py -> /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/navigation_robot/build/lib/navigation_robot\n'}
+[15.386894] (navigation_robot) StdoutLine: {'line': b'running install\n'}
+[15.386985] (navigation_robot) StdoutLine: {'line': b'running install_lib\n'}
+[15.387076] (navigation_robot) StdoutLine: {'line': b'copying /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/navigation_robot/build/lib/navigation_robot/lap_time_server.py -> /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/lib/python3.10/site-packages/navigation_robot\n'}
+[15.387176] (navigation_robot) StdoutLine: {'line': b'byte-compiling /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/lib/python3.10/site-packages/navigation_robot/lap_time_server.py to lap_time_server.cpython-310.pyc\n'}
+[15.387364] (navigation_robot) StdoutLine: {'line': b'running install_data\n'}
+[15.387475] (navigation_robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[15.390341] (navigation_robot) StdoutLine: {'line': b"removing '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/lib/python3.10/site-packages/navigation_robot-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[15.390632] (navigation_robot) StdoutLine: {'line': b'Copying ../../build/navigation_robot/navigation_robot.egg-info to /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/lib/python3.10/site-packages/navigation_robot-0.0.0-py3.10.egg-info\n'}
+[15.420050] (navigation_robot) StdoutLine: {'line': b'running install_scripts\n'}
+[15.490545] (-) TimerEvent: {}
+[15.602816] (-) TimerEvent: {}
+[15.712406] (-) TimerEvent: {}
+[15.828082] (-) TimerEvent: {}
+[15.934313] (-) TimerEvent: {}
+[16.081254] (-) TimerEvent: {}
+[16.118669] (navigation_robot) StdoutLine: {'line': b'Installing lap_time_client script to /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/lib/navigation_robot\n'}
+[16.191175] (navigation_robot) StdoutLine: {'line': b'Installing lap_time_server script to /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/lib/navigation_robot\n'}
+[16.194038] (-) TimerEvent: {}
+[16.197038] (navigation_robot) StdoutLine: {'line': b'Installing robot_driver script to /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/lib/navigation_robot\n'}
+[16.198529] (navigation_robot) StdoutLine: {'line': b'Installing wall_finder script to /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/lib/navigation_robot\n'}
+[16.199826] (navigation_robot) StdoutLine: {'line': b"writing list of installed files to '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/navigation_robot/install.log'\n"}
+[16.298538] (-) TimerEvent: {}
+[16.377200] (navigation_robot) CommandEnded: {'returncode': 0}
+[16.512378] (-) TimerEvent: {}
+[16.634710] (-) TimerEvent: {}
+[16.743627] (-) TimerEvent: {}
+[16.870579] (-) TimerEvent: {}
+[16.968888] (navigation_robot) JobEnded: {'identifier': 'navigation_robot', 'rc': 0}
+[16.972710] (-) TimerEvent: {}
+[17.076315] (-) TimerEvent: {}
+[17.181161] (-) TimerEvent: {}
+[17.314889] (-) TimerEvent: {}
+[17.435176] (-) TimerEvent: {}
+[17.573440] (-) TimerEvent: {}
+[18.106510] (-) TimerEvent: {}
+[18.230794] (-) TimerEvent: {}
+[18.365036] (-) TimerEvent: {}
+[18.536992] (-) TimerEvent: {}
+[18.563538] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'install'}
+[18.639146] (-) TimerEvent: {}
+[18.740858] (-) TimerEvent: {}
+[18.958189] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/custom_interfaces'], 'cwd': '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mohamad'), ('LC_TIME', 'ar_LB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/lib:/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mohamad'), ('OLDPWD', '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_LB.UTF-8'), ('SYSTEMD_EXEC_PID', '2601'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install:/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install:/home/mohamad/Inmind/Robotics-Session5-Ros2/session5_ros2_ws/install:/home/mohamad/Inmind/ros2_ws/install:/home/mohamad/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mohamad'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mohamad'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mohamad-VirtualBox:@/tmp/.ICE-unix/1833,unix/mohamad-VirtualBox:/tmp/.ICE-unix/1833'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_LB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6f4d1928_2b49_4d3a_be6a_d5ff93169fd7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_LB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EEVWQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot:/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces:/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/session6_assignment:/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/custom_interfaces:/home/mohamad/Inmind/ros2_ws/install/session5_academy:/home/mohamad/Inmind/Robotics-Session5-Ros2/session5_ros2_ws/install/session5_assignment:/home/mohamad/ros2_ws/install/my_robot_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_LB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_LB.UTF-8'), ('LC_IDENTIFICATION', 'ar_LB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/custom_interfaces'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/lib/python3.10/site-packages:/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/session6_assignment/lib/python3.10/site-packages:/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/mohamad/Inmind/ros2_ws/install/session5_academy/lib/python3.10/site-packages:/home/mohamad/Inmind/Robotics-Session5-Ros2/session5_ros2_ws/install/session5_assignment/lib/python3.10/site-packages:/home/mohamad/ros2_ws/build/my_robot_controller:/home/mohamad/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_LB.UTF-8'), ('LC_PAPER', 'ar_LB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces:/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/custom_interfaces:/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot:/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/session6_assignment:/home/mohamad/Inmind/ros2_ws/install/session5_academy:/home/mohamad/Inmind/Robotics-Session5-Ros2/session5_ros2_ws/install/session5_assignment:/home/mohamad/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[18.961486] (-) TimerEvent: {}
+[19.084964] (-) TimerEvent: {}
+[19.138217] (custom_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.138675] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces\n'}
+[19.139757] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[19.185569] (-) TimerEvent: {}
+[19.186258] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action\n'}
+[19.186515] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail\n'}
+[19.186635] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/measure_lap_time__type_support.h\n'}
+[19.186737] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/measure_lap_time__struct.h\n'}
+[19.186833] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/measure_lap_time__functions.h\n'}
+[19.186924] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/measure_lap_time__functions.c\n'}
+[19.187014] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/measure_lap_time.h\n'}
+[19.187139] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[19.187259] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[19.187350] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/find_closest_wall__functions.h\n'}
+[19.187438] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/find_closest_wall__type_support.h\n'}
+[19.203634] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/find_closest_wall__struct.h\n'}
+[19.208346] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/find_closest_wall__functions.c\n'}
+[19.212079] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/find_closest_wall.h\n'}
+[19.213324] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[19.214142] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[19.224175] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh\n'}
+[19.227246] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv\n'}
+[19.229826] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so\n'}
+[19.230311] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[19.230696] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action\n'}
+[19.231212] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail\n'}
+[19.231929] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/measure_lap_time__rosidl_typesupport_fastrtps_c.h\n'}
+[19.239435] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[19.239553] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[19.239647] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/find_closest_wall__rosidl_typesupport_fastrtps_c.h\n'}
+[19.239738] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[19.239827] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[19.239918] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[19.240005] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[19.240091] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action\n'}
+[19.240187] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail\n'}
+[19.240299] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/measure_lap_time__struct.hpp\n'}
+[19.240411] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/measure_lap_time__traits.hpp\n'}
+[19.240500] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/measure_lap_time__builder.hpp\n'}
+[19.240587] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/measure_lap_time.hpp\n'}
+[19.240675] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[19.240783] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/find_closest_wall.hpp\n'}
+[19.240873] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[19.240960] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/find_closest_wall__builder.hpp\n'}
+[19.241048] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/find_closest_wall__traits.hpp\n'}
+[19.241136] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/find_closest_wall__struct.hpp\n'}
+[19.241222] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[19.241353] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action\n'}
+[19.241445] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail\n'}
+[19.241544] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/dds_fastrtps\n'}
+[19.241634] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/measure_lap_time__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[19.241723] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[19.241819] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[19.241907] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/dds_fastrtps\n'}
+[19.241994] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/find_closest_wall__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[19.242082] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[19.242168] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[19.242302] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[19.242399] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[19.242489] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action\n'}
+[19.242578] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail\n'}
+[19.242665] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/measure_lap_time__rosidl_typesupport_introspection_c.h\n'}
+[19.291203] (-) TimerEvent: {}
+[19.292409] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/measure_lap_time__type_support.c\n'}
+[19.292894] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[19.293233] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[19.295360] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/find_closest_wall__rosidl_typesupport_introspection_c.h\n'}
+[19.295597] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/find_closest_wall__type_support.c\n'}
+[19.295769] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[19.295921] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[19.296186] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[19.296363] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so\n'}
+[19.297981] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[19.298154] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action\n'}
+[19.298375] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail\n'}
+[19.298550] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/measure_lap_time__type_support.cpp\n'}
+[19.298759] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/measure_lap_time__rosidl_typesupport_introspection_cpp.hpp\n'}
+[19.300505] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[19.300675] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[19.300870] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/find_closest_wall__type_support.cpp\n'}
+[19.303466] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/find_closest_wall__rosidl_typesupport_introspection_cpp.hpp\n'}
+[19.303605] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[19.303698] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so\n'}
+[19.303835] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh\n'}
+[19.303932] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv\n'}
+[19.304021] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info\n'}
+[19.304108] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[19.304216] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[19.304321] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[19.308054] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[19.308162] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces\n'}
+[19.308255] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action\n'}
+[19.308347] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action/__init__.py\n'}
+[19.308465] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action/_measure_lap_time.py\n'}
+[19.308561] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action/_measure_lap_time_s.c\n'}
+[19.308743] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[19.376754] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[19.454653] (-) TimerEvent: {}
+[19.455957] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so\n'}
+[19.456239] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[19.456768] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv\n'}
+[19.456880] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_find_closest_wall_s.c\n'}
+[19.457274] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py\n'}
+[19.457389] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_find_closest_wall.py\n'}
+[19.457657] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[19.457755] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py\n'}
+[19.457846] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[19.457938] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[19.716156] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces'...\n"}
+[19.763614] (-) TimerEvent: {}
+[19.763952] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action'...\n"}
+[19.764428] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv'...\n"}
+[19.775721] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[19.776396] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[19.777038] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[19.777649] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so\n'}
+[19.778185] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/FindClosestWall.idl\n'}
+[19.778601] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/action/MeasureLapTime.idl\n'}
+[19.778713] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/FindClosestWall.srv\n'}
+[19.778894] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/FindClosestWall_Request.msg\n'}
+[19.779224] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/FindClosestWall_Response.msg\n'}
+[19.779915] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/action/MeasureLapTime.action\n'}
+[19.780066] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces\n'}
+[19.780362] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces\n'}
+[19.781407] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh\n'}
+[19.782301] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv\n'}
+[19.783008] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/path.sh\n'}
+[19.783145] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/path.dsv\n'}
+[19.783507] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.bash\n'}
+[19.783996] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.sh\n'}
+[19.785107] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.zsh\n'}
+[19.785212] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.dsv\n'}
+[19.785303] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.dsv\n'}
+[19.785441] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces\n'}
+[19.785537] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake\n'}
+[19.785727] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[19.785821] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[19.785911] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[19.786009] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake\n'}
+[19.786106] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[19.786449] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[19.786545] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[19.786633] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[19.786722] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[19.786809] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[19.786896] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[19.786981] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[19.787066] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[19.787152] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[19.787237] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake\n'}
+[19.787365] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[19.787465] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[19.787554] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[19.787643] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[19.787730] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[19.787831] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[19.787935] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[19.788364] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[19.788595] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake\n'}
+[19.788815] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake\n'}
+[19.789827] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.xml\n'}
+[19.794809] (custom_interfaces) CommandEnded: {'returncode': 0}
+[19.865407] (-) TimerEvent: {}
+[19.978604] (-) TimerEvent: {}
+[20.085649] (-) TimerEvent: {}
+[20.216864] (-) TimerEvent: {}
+[20.334703] (-) TimerEvent: {}
+[20.452116] (-) TimerEvent: {}
+[20.855641] (-) TimerEvent: {}
+[21.040810] (-) TimerEvent: {}
+[21.158692] (-) TimerEvent: {}
+[21.261063] (-) TimerEvent: {}
+[21.382193] (-) TimerEvent: {}
+[21.512109] (-) TimerEvent: {}
+[21.622536] (-) TimerEvent: {}
+[21.757581] (-) TimerEvent: {}
+[22.080764] (-) TimerEvent: {}
+[22.186892] (-) TimerEvent: {}
+[22.306206] (-) TimerEvent: {}
+[22.594680] (-) TimerEvent: {}
+[22.700493] (-) TimerEvent: {}
+[22.869917] (-) TimerEvent: {}
+[23.035308] (-) TimerEvent: {}
+[23.163286] (-) TimerEvent: {}
+[23.187949] (custom_interfaces) JobEnded: {'identifier': 'custom_interfaces', 'rc': 0}
+[23.214789] (-) EventReactorShutdown: {}

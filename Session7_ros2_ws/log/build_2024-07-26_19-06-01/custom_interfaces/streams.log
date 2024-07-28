@@ -1,0 +1,183 @@
+[1.118s] Invoking command in '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot:/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/session6_assignment:/home/mohamad/Inmind/ros2_ws/install/session5_academy:/home/mohamad/Inmind/Robotics-Session5-Ros2/session5_ros2_ws/install/session5_assignment:/home/mohamad/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/custom_interfaces -- -j4 -l4
+[6.463s] [  2%] Built target custom_interfaces__cpp
+[7.817s] [  2%] Built target ament_cmake_python_copy_custom_interfaces
+[10.057s] [ 12%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[11.461s] [ 23%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp
+[16.522s] running egg_info
+[16.555s] writing custom_interfaces.egg-info/PKG-INFO
+[16.687s] writing dependency_links to custom_interfaces.egg-info/dependency_links.txt
+[16.689s] writing top-level names to custom_interfaces.egg-info/top_level.txt
+[16.689s] reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[16.698s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[16.956s] [ 23%] Built target ament_cmake_python_build_custom_interfaces_egg
+[18.353s] [ 33%] Built target custom_interfaces__rosidl_typesupport_cpp
+[19.703s] [ 43%] Built target custom_interfaces__rosidl_generator_c
+[21.210s] [ 53%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c
+[22.161s] [ 64%] Built target custom_interfaces__rosidl_typesupport_c
+[23.387s] [ 74%] Built target custom_interfaces__rosidl_typesupport_introspection_c
+[23.929s] [ 74%] Built target custom_interfaces
+[24.812s] [ 76%] Built target custom_interfaces__py
+[26.114s] [ 84%] Built target custom_interfaces__rosidl_generator_py
+[27.129s] [ 89%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[28.302s] [ 94%] Built target custom_interfaces__rosidl_typesupport_c__pyext
+[29.360s] [100%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[29.904s] Invoked command in '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot:/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/session6_assignment:/home/mohamad/Inmind/ros2_ws/install/session5_academy:/home/mohamad/Inmind/Robotics-Session5-Ros2/session5_ros2_ws/install/session5_assignment:/home/mohamad/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/custom_interfaces -- -j4 -l4
+[35.366s] Invoking command in '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot:/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/session6_assignment:/home/mohamad/Inmind/ros2_ws/install/session5_academy:/home/mohamad/Inmind/Robotics-Session5-Ros2/session5_ros2_ws/install/session5_assignment:/home/mohamad/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/custom_interfaces
+[35.700s] -- Install configuration: ""
+[35.752s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces
+[35.759s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[35.760s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action
+[35.761s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail
+[35.761s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/measure_lap_time__type_support.h
+[35.761s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/measure_lap_time__struct.h
+[35.762s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/measure_lap_time__functions.h
+[35.763s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/measure_lap_time__functions.c
+[35.764s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/measure_lap_time.h
+[35.765s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[35.782s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[35.802s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/find_closest_wall__functions.h
+[35.817s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/find_closest_wall__type_support.h
+[35.892s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/find_closest_wall__struct.h
+[35.914s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/find_closest_wall__functions.c
+[36.007s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/find_closest_wall.h
+[36.050s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[36.051s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[36.051s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh
+[36.051s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv
+[36.051s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so
+[36.051s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[36.052s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action
+[36.052s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail
+[36.052s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/measure_lap_time__rosidl_typesupport_fastrtps_c.h
+[36.080s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[36.080s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[36.080s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/find_closest_wall__rosidl_typesupport_fastrtps_c.h
+[36.080s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[36.142s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[36.143s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so
+[36.143s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[36.143s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action
+[36.143s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail
+[36.143s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/measure_lap_time__struct.hpp
+[36.143s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/measure_lap_time__traits.hpp
+[36.143s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/measure_lap_time__builder.hpp
+[36.143s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/measure_lap_time.hpp
+[36.143s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[36.144s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/find_closest_wall.hpp
+[36.144s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[36.144s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/find_closest_wall__builder.hpp
+[36.149s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/find_closest_wall__traits.hpp
+[36.149s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/find_closest_wall__struct.hpp
+[36.151s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[36.152s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action
+[36.152s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail
+[36.152s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/dds_fastrtps
+[36.153s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/measure_lap_time__rosidl_typesupport_fastrtps_cpp.hpp
+[36.153s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[36.226s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[36.228s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/dds_fastrtps
+[36.233s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/find_closest_wall__rosidl_typesupport_fastrtps_cpp.hpp
+[36.237s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[36.259s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[36.260s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[36.261s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[36.262s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action
+[36.263s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail
+[36.331s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/measure_lap_time__rosidl_typesupport_introspection_c.h
+[36.332s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/measure_lap_time__type_support.c
+[36.334s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[36.337s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[36.338s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/find_closest_wall__rosidl_typesupport_introspection_c.h
+[36.340s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/find_closest_wall__type_support.c
+[36.341s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[36.342s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[36.343s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so
+[36.345s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so
+[36.346s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[36.347s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action
+[36.348s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail
+[36.357s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/measure_lap_time__type_support.cpp
+[36.358s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/measure_lap_time__rosidl_typesupport_introspection_cpp.hpp
+[36.358s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[36.358s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[36.361s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/find_closest_wall__type_support.cpp
+[36.361s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/find_closest_wall__rosidl_typesupport_introspection_cpp.hpp
+[36.362s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so
+[36.380s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so
+[36.452s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh
+[36.452s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv
+[36.455s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info
+[36.455s] -- Installing: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[36.455s] -- Installing: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[36.456s] -- Installing: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[36.456s] -- Installing: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[36.456s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces
+[36.456s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action
+[36.456s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action/__init__.py
+[36.456s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action/_measure_lap_time.py
+[36.456s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action/_measure_lap_time_s.c
+[36.456s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[36.456s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[36.457s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so
+[36.457s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[36.457s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv
+[36.457s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_find_closest_wall_s.c
+[36.457s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py
+[36.457s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_find_closest_wall.py
+[36.457s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c
+[36.457s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py
+[36.457s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[36.457s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[37.100s] Listing '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces'...
+[37.102s] Listing '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action'...
+[37.103s] Listing '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv'...
+[37.157s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[37.258s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[37.314s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[37.531s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so
+[37.543s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/FindClosestWall.idl
+[37.546s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/action/MeasureLapTime.idl
+[37.630s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/FindClosestWall.srv
+[37.631s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/FindClosestWall_Request.msg
+[37.632s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/srv/FindClosestWall_Response.msg
+[37.632s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/action/MeasureLapTime.action
+[37.632s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces
+[37.639s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces
+[37.639s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh
+[37.640s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv
+[37.640s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/path.sh
+[37.640s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/environment/path.dsv
+[37.640s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.bash
+[37.640s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.sh
+[37.640s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.zsh
+[37.646s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/local_setup.dsv
+[37.646s] -- Installing: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.dsv
+[37.723s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces
+[37.831s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake
+[37.833s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[37.915s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[37.915s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[37.999s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake
+[38.092s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[38.092s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[38.138s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[38.140s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[38.143s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake
+[38.144s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[38.189s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[38.234s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[38.339s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake
+[38.428s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[38.557s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake
+[38.559s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[38.606s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[38.682s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[38.714s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[38.716s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[38.739s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[38.739s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[38.739s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[38.739s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake
+[38.739s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake
+[38.740s] -- Up-to-date: /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.xml
+[38.857s] Invoked command in '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot:/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/session6_assignment:/home/mohamad/Inmind/ros2_ws/install/session5_academy:/home/mohamad/Inmind/Robotics-Session5-Ros2/session5_ros2_ws/install/session5_assignment:/home/mohamad/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/custom_interfaces

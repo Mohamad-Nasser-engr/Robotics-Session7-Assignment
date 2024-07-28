@@ -50,7 +50,7 @@ class WallFollowerNode(Node):
             self.twist.linear.x = 0.0
             self.twist.angular.z = -0.15
         else:
-            self.twist.linear.x = 0.2
+            self.twist.linear.x = 0.5
             self.twist.angular.z = 0.0
         self.cmd_vel_publisher.publish(self.twist)
 

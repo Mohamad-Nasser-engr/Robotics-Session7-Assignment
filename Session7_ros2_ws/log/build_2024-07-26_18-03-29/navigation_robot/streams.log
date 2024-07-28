@@ -1,0 +1,27 @@
+[7.977s] Invoking command in '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/src/navigation_robot': PYTHONPATH=/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/navigation_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/navigation_robot build --build-base /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/navigation_robot/build install --record /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/navigation_robot/install.log --single-version-externally-managed install_data
+[13.878s] running egg_info
+[14.154s] writing ../../build/navigation_robot/navigation_robot.egg-info/PKG-INFO
+[14.154s] writing dependency_links to ../../build/navigation_robot/navigation_robot.egg-info/dependency_links.txt
+[14.154s] writing entry points to ../../build/navigation_robot/navigation_robot.egg-info/entry_points.txt
+[14.155s] writing requirements to ../../build/navigation_robot/navigation_robot.egg-info/requires.txt
+[14.155s] writing top-level names to ../../build/navigation_robot/navigation_robot.egg-info/top_level.txt
+[14.155s] reading manifest file '../../build/navigation_robot/navigation_robot.egg-info/SOURCES.txt'
+[14.155s] writing manifest file '../../build/navigation_robot/navigation_robot.egg-info/SOURCES.txt'
+[14.156s] running build
+[14.162s] running build_py
+[14.162s] copying navigation_robot/lap_time_server.py -> /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/navigation_robot/build/lib/navigation_robot
+[14.162s] running install
+[14.162s] running install_lib
+[14.163s] copying /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/navigation_robot/build/lib/navigation_robot/lap_time_server.py -> /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/lib/python3.10/site-packages/navigation_robot
+[14.163s] byte-compiling /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/lib/python3.10/site-packages/navigation_robot/lap_time_server.py to lap_time_server.cpython-310.pyc
+[14.165s] running install_data
+[14.168s] running install_egg_info
+[14.170s] removing '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/lib/python3.10/site-packages/navigation_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[14.171s] Copying ../../build/navigation_robot/navigation_robot.egg-info to /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/lib/python3.10/site-packages/navigation_robot-0.0.0-py3.10.egg-info
+[14.253s] running install_scripts
+[14.549s] Installing lap_time_client script to /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/lib/navigation_robot
+[14.693s] Installing lap_time_server script to /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/lib/navigation_robot
+[14.693s] Installing robot_driver script to /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/lib/navigation_robot
+[14.769s] Installing wall_finder script to /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/lib/navigation_robot
+[14.782s] writing list of installed files to '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/navigation_robot/install.log'
+[15.159s] Invoked command in '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/src/navigation_robot' returned '0': PYTHONPATH=/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/navigation_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/navigation_robot build --build-base /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/navigation_robot/build install --record /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/navigation_robot/install.log --single-version-externally-managed install_data

@@ -1,0 +1,203 @@
+[13.253s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[13.258s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x77089b249120>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77089b248be0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77089b248be0>>)
+[27.573s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[27.577s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[27.580s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[27.580s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[27.580s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[27.581s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[27.581s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws'
+[27.582s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[27.582s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[27.582s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[27.582s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[27.583s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[27.583s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[27.584s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[27.584s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[27.584s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[27.871s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[27.872s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[27.872s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[27.872s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[27.872s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[27.872s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[27.872s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[27.872s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[27.873s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[27.873s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[27.873s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[27.873s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[27.874s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[27.874s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[27.874s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[27.874s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[27.874s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[27.875s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[27.875s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[27.875s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[27.875s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[27.875s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[27.875s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[27.875s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[27.875s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[27.875s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[27.875s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[27.875s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[27.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[27.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ignore'
+[27.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ignore_ament_install'
+[27.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['colcon_pkg']
+[27.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'colcon_pkg'
+[27.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['colcon_meta']
+[27.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'colcon_meta'
+[27.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['ros']
+[27.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ros'
+[27.943s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_interfaces' with type 'ros.ament_cmake' and name 'custom_interfaces'
+[27.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_robot) by extensions ['ignore', 'ignore_ament_install']
+[27.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_robot) by extension 'ignore'
+[27.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_robot) by extension 'ignore_ament_install'
+[27.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_robot) by extensions ['colcon_pkg']
+[27.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_robot) by extension 'colcon_pkg'
+[27.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_robot) by extensions ['colcon_meta']
+[27.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_robot) by extension 'colcon_meta'
+[27.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_robot) by extensions ['ros']
+[27.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_robot) by extension 'ros'
+[28.021s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navigation_robot' with type 'ros.ament_python' and name 'navigation_robot'
+[28.074s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[28.075s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[28.075s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[28.075s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[28.075s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[29.480s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[29.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[29.921s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install
+[30.110s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install
+[30.287s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/mohamad/Inmind/Robotics-Session5-Ros2/session5_ros2_ws/install
+[30.425s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/mohamad/Inmind/ros2_ws/install
+[30.465s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/mohamad/ros2_ws/install
+[30.547s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 337 installed packages in /opt/ros/humble
+[30.589s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[36.492s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_args' from command line to 'None'
+[36.494s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_target' from command line to 'None'
+[36.503s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[36.505s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[36.506s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[36.515s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[36.517s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[36.518s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[36.518s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[36.528s] DEBUG:colcon.colcon_core.verb:Building package 'custom_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/custom_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces', 'merge_install': False, 'path': '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/src/custom_interfaces', 'symlink_install': False, 'test_result_base': None}
+[36.538s] Level 5:colcon.colcon_core.verb:set package 'navigation_robot' build argument 'cmake_args' from command line to 'None'
+[36.558s] Level 5:colcon.colcon_core.verb:set package 'navigation_robot' build argument 'cmake_target' from command line to 'None'
+[36.584s] Level 5:colcon.colcon_core.verb:set package 'navigation_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[36.584s] Level 5:colcon.colcon_core.verb:set package 'navigation_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[36.588s] Level 5:colcon.colcon_core.verb:set package 'navigation_robot' build argument 'cmake_clean_first' from command line to 'False'
+[36.590s] Level 5:colcon.colcon_core.verb:set package 'navigation_robot' build argument 'cmake_force_configure' from command line to 'False'
+[36.591s] Level 5:colcon.colcon_core.verb:set package 'navigation_robot' build argument 'ament_cmake_args' from command line to 'None'
+[36.593s] Level 5:colcon.colcon_core.verb:set package 'navigation_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[36.594s] Level 5:colcon.colcon_core.verb:set package 'navigation_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[36.596s] DEBUG:colcon.colcon_core.verb:Building package 'navigation_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/navigation_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot', 'merge_install': False, 'path': '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/src/navigation_robot', 'symlink_install': False, 'test_result_base': None}
+[36.598s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[36.659s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[36.662s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/src/custom_interfaces' with build type 'ament_cmake'
+[36.664s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/src/custom_interfaces'
+[37.309s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[37.310s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[37.311s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[37.844s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/src/navigation_robot' with build type 'ament_python'
+[37.873s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_robot', 'ament_prefix_path')
+[37.934s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/share/navigation_robot/hook/ament_prefix_path.ps1'
+[38.013s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/share/navigation_robot/hook/ament_prefix_path.dsv'
+[38.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/share/navigation_robot/hook/ament_prefix_path.sh'
+[38.065s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[38.069s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[38.515s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot:/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/session6_assignment:/home/mohamad/Inmind/ros2_ws/install/session5_academy:/home/mohamad/Inmind/Robotics-Session5-Ros2/session5_ros2_ws/install/session5_assignment:/home/mohamad/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/custom_interfaces -- -j4 -l4
+[43.863s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/src/navigation_robot'
+[43.863s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[43.864s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[55.250s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/src/navigation_robot': PYTHONPATH=/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/navigation_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/navigation_robot build --build-base /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/navigation_robot/build install --record /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/navigation_robot/install.log --single-version-externally-managed install_data
+[62.102s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/src/navigation_robot' returned '0': PYTHONPATH=/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/navigation_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/navigation_robot build --build-base /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/navigation_robot/build install --record /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/navigation_robot/install.log --single-version-externally-managed install_data
+[62.618s] Level 1:colcon.colcon_core.environment:checking '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot' for CMake module files
+[62.621s] Level 1:colcon.colcon_core.environment:checking '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot' for CMake config files
+[62.629s] Level 1:colcon.colcon_core.environment:checking '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/lib'
+[62.630s] Level 1:colcon.colcon_core.environment:checking '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/bin'
+[62.630s] Level 1:colcon.colcon_core.environment:checking '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/lib/pkgconfig/navigation_robot.pc'
+[62.635s] Level 1:colcon.colcon_core.environment:checking '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/lib/python3.10/site-packages'
+[62.670s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_robot', 'pythonpath')
+[62.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/share/navigation_robot/hook/pythonpath.ps1'
+[62.716s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/share/navigation_robot/hook/pythonpath.dsv'
+[62.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/share/navigation_robot/hook/pythonpath.sh'
+[62.779s] Level 1:colcon.colcon_core.environment:checking '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/bin'
+[62.780s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation_robot)
+[62.780s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/share/navigation_robot/package.ps1'
+[62.833s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/share/navigation_robot/package.dsv'
+[62.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/share/navigation_robot/package.sh'
+[62.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/share/navigation_robot/package.bash'
+[63.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/share/navigation_robot/package.zsh'
+[63.115s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot/share/colcon-core/packages/navigation_robot)
+[65.962s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot:/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/session6_assignment:/home/mohamad/Inmind/ros2_ws/install/session5_academy:/home/mohamad/Inmind/Robotics-Session5-Ros2/session5_ros2_ws/install/session5_assignment:/home/mohamad/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/custom_interfaces -- -j4 -l4
+[71.168s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot:/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/session6_assignment:/home/mohamad/Inmind/ros2_ws/install/session5_academy:/home/mohamad/Inmind/Robotics-Session5-Ros2/session5_ros2_ws/install/session5_assignment:/home/mohamad/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/custom_interfaces
+[74.303s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interfaces)
+[74.311s] Level 1:colcon.colcon_core.environment:checking '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces' for CMake module files
+[74.307s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/navigation_robot:/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/session6_assignment:/home/mohamad/Inmind/ros2_ws/install/session5_academy:/home/mohamad/Inmind/Robotics-Session5-Ros2/session5_ros2_ws/install/session5_assignment:/home/mohamad/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/build/custom_interfaces
+[74.482s] Level 1:colcon.colcon_core.environment:checking '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces' for CMake config files
+[74.518s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'cmake_prefix_path')
+[74.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.ps1'
+[74.580s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.dsv'
+[74.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.sh'
+[74.632s] Level 1:colcon.colcon_core.environment:checking '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/lib'
+[74.632s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'ld_library_path_lib')
+[74.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.ps1'
+[74.680s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.dsv'
+[74.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.sh'
+[74.690s] Level 1:colcon.colcon_core.environment:checking '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/bin'
+[74.691s] Level 1:colcon.colcon_core.environment:checking '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/lib/pkgconfig/custom_interfaces.pc'
+[74.692s] Level 1:colcon.colcon_core.environment:checking '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/lib/python3.10/site-packages'
+[74.693s] Level 1:colcon.colcon_core.environment:checking '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/bin'
+[74.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.ps1'
+[74.696s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.dsv'
+[74.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.sh'
+[74.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.bash'
+[74.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.zsh'
+[74.704s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/colcon-core/packages/custom_interfaces)
+[81.497s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interfaces)
+[81.539s] Level 1:colcon.colcon_core.environment:checking '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces' for CMake module files
+[81.540s] Level 1:colcon.colcon_core.environment:checking '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces' for CMake config files
+[81.541s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'cmake_prefix_path')
+[81.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.ps1'
+[81.586s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.dsv'
+[81.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.sh'
+[81.640s] Level 1:colcon.colcon_core.environment:checking '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/lib'
+[81.641s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'ld_library_path_lib')
+[81.641s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.ps1'
+[81.647s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.dsv'
+[81.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.sh'
+[81.650s] Level 1:colcon.colcon_core.environment:checking '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/bin'
+[81.651s] Level 1:colcon.colcon_core.environment:checking '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/lib/pkgconfig/custom_interfaces.pc'
+[81.651s] Level 1:colcon.colcon_core.environment:checking '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/lib/python3.10/site-packages'
+[81.652s] Level 1:colcon.colcon_core.environment:checking '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/bin'
+[81.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.ps1'
+[81.695s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.dsv'
+[81.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.sh'
+[81.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.bash'
+[81.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/custom_interfaces/package.zsh'
+[81.735s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/custom_interfaces/share/colcon-core/packages/custom_interfaces)
+[81.789s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[81.790s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[81.790s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[81.790s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[82.504s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[82.509s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[82.511s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[82.873s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[82.875s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/local_setup.ps1'
+[82.926s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/_local_setup_util_ps1.py'
+[83.073s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/setup.ps1'
+[83.107s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/local_setup.sh'
+[83.184s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/_local_setup_util_sh.py'
+[83.191s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/setup.sh'
+[83.205s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/local_setup.bash'
+[83.292s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/setup.bash'
+[83.502s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/local_setup.zsh'
+[83.606s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mohamad/Inmind/Robotics-Session7-Assignment/Session7_ros2_ws/install/setup.zsh'

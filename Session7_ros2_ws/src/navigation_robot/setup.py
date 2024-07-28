@@ -21,7 +21,9 @@ setup(
     entry_points={
         'console_scripts': [
             'wall_finder=navigation_robot.wall_finder_service:main',
-            'robot_driver=navigation_robot.robot_driver:main'
+            'robot_driver=navigation_robot.robot_driver:main',
+            'lap_time_server=navigation_robot.lap_time_server:main',
+            'lap_time_client=navigation_robot.lap_time_client:main'
         ],
     },
 )

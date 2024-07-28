@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/custom_interfaces__cpp"
+  "rosidl_generator_cpp/custom_interfaces/action/detail/measure_lap_time__builder.hpp"
+  "rosidl_generator_cpp/custom_interfaces/action/detail/measure_lap_time__struct.hpp"
+  "rosidl_generator_cpp/custom_interfaces/action/detail/measure_lap_time__traits.hpp"
+  "rosidl_generator_cpp/custom_interfaces/action/measure_lap_time.hpp"
   "rosidl_generator_cpp/custom_interfaces/srv/detail/find_closest_wall__builder.hpp"
   "rosidl_generator_cpp/custom_interfaces/srv/detail/find_closest_wall__struct.hpp"
   "rosidl_generator_cpp/custom_interfaces/srv/detail/find_closest_wall__traits.hpp"

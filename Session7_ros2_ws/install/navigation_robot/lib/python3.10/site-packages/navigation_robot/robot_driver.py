@@ -37,7 +37,7 @@ class WallFollowerNode(Node):
         response = future.result()
         if response.success:
             self.get_logger().info('Successfully moved to the closest wall.')
-            # Create a subscription to /scan after robot arives at the first wall
+            # Create a subscription to /scan after robot arrives at the first wall
             self.scan_subscription = self.create_subscription(LaserScan,'/scan',self.scan_callback,10)
         else:
             self.get_logger().error('Failed to move to the closest wall.')         
@@ -50,7 +50,7 @@ class WallFollowerNode(Node):
             self.twist.linear.x = 0.0
             self.twist.angular.z = -0.15
         else:
-            self.twist.linear.x = 0.2
+            self.twist.linear.x = 0.5
             self.twist.angular.z = 0.0
         self.cmd_vel_publisher.publish(self.twist)
 

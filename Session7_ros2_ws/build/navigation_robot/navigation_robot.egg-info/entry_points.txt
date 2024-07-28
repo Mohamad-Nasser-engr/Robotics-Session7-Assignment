@@ -1,4 +1,6 @@
 [console_scripts]
+lap_time_client = navigation_robot.lap_time_client:main
+lap_time_server = navigation_robot.lap_time_server:main
 robot_driver = navigation_robot.robot_driver:main
 wall_finder = navigation_robot.wall_finder_service:main
 

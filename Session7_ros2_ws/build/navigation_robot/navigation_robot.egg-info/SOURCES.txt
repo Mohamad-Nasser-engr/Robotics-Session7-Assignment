@@ -9,6 +9,8 @@ setup.py
 ../../build/navigation_robot/navigation_robot.egg-info/top_level.txt
 ../../build/navigation_robot/navigation_robot.egg-info/zip-safe
 navigation_robot/__init__.py
+navigation_robot/lap_time_client.py
+navigation_robot/lap_time_server.py
 navigation_robot/robot_driver.py
 navigation_robot/wall_finder_service.py
 resource/navigation_robot
