@@ -32,6 +32,10 @@ source /opt/ros/humble/setup.bash
 ```bash
 source install/setup.bash
 ```
+- launch the simulation environment in gazebo:
+```bash
+ros2 launch turtlebot3_gazebo turtlebot3_dqn_stage1.launch.py
+```
 - launch the nodes:
 ```bash
 ros2 launch launch/Robot_navigation_launch.py 
